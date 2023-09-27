@@ -8,6 +8,7 @@ var tie=0
 function rps() {
     // console.log("rpstest")
     player = prompt("Rock, Paper, Scissor");
+    player = player.toLowerCase()
     console.log(player);
     computerRps()
     compare()
